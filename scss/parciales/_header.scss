@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(253, 232, 247);
+}
+
+nav {
+    display : inline-flex
+}
+
+nav a {
+    color: rgb(209, 46, 73);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+} 
+
+nav ul{
+    list-style: none;
+    display : inline-flex
+}
+
+
+nav li {
+    list-style: none;
+    margin-left: 10px;
+}
