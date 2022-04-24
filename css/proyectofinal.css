@@ -146,7 +146,7 @@ section {
 
 .seccion-principal .cuerpo-seccion {
   padding: 40px;
-  background: rgba(252, 248, 248, 0.01);
+  background: rgb(252 249 249 / 61%);
   width: 500px;
   border-radius: 15px; }
 

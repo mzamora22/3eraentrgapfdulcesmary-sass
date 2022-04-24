@@ -70,7 +70,7 @@ section {
 
 .seccion-principal .cuerpo-seccion {
     padding: 40px;
-    background: rgba(252, 248, 248, 0.01);
+    background: rgb(252 249 249 / 61%);
     width: 500px;
     border-radius: 15px;
 }
@@ -128,6 +128,35 @@ section {
     margin-top: 0px;   
     text-align: center;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.tarjeta-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    padding: 40px;
+    margin: auto;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);  
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header-descripcion{
+    padding: 20px;
+    text-align: center;
+}
+
 .seccion-secundaria {
     $mivariable: violet;
     border-style: solid;
@@ -175,6 +204,8 @@ section {
 }
 
 footer {
+    margin-top: 0;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
